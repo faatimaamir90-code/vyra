@@ -31,7 +31,7 @@ export default function ICPAgent() {
     sizes: [] as string[],
     locations: [] as string[],
     hiringRoles: '',
-    count: 25,
+    count: 50,
   });
   const [results, setResults] = useState<any[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
