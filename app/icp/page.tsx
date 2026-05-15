@@ -123,7 +123,12 @@ export default function ICPAgent() {
             </div>
             <span className="text-zinc-500 text-sm">Vyra — ICP Agent</span>
           </div>
-          <a href="/briefing" className="text-xs text-zinc-500 hover:text-white transition-colors">Back to Briefing</a>
+          <div className="flex items-center gap-4">
+  <span className="text-zinc-500 text-sm">Vyra Briefing</span>
+  <a href="/icp" className="text-xs text-zinc-500 hover:text-white transition-colors border border-zinc-800 px-3 py-1.5 rounded-lg hover:border-zinc-600">
+    ICP Agent
+  </a>
+</div>
         </div>
 
         <div className="mb-8">
