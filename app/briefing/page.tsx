@@ -66,7 +66,7 @@ export default function Briefing() {
             <div className="w-8 h-8 rounded-lg bg-[#D4F54A] flex items-center justify-center">
               <span className="text-[#0A0A0A] font-bold text-sm">V</span>
             </div>
-            <span className="text-zinc-500 text-sm">Vyra Briefing</span>
+            <div className="flex items-center gap-2"><a href="/briefing" className="text-xs font-medium text-white bg-zinc-800 px-3 py-1.5 rounded-lg">Briefing</a><a href="/icp" className="text-xs text-zinc-500 hover:text-white px-3 py-1.5 rounded-lg border border-zinc-800 hover:border-zinc-600 transition-colors">ICP Agent</a></div>
           </div>
           <div className="flex items-center gap-3">
             {connected && (
